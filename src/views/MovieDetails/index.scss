@@ -1,0 +1,64 @@
+.movie-detail{
+    color: white;
+    background: rgb(48, 48, 48);
+    margin-top: 1rem;
+    display: flex;
+    align-items:center;
+   
+  
+
+    &__col{
+        margin: 0 10px;
+    }
+
+    &__title{
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__image{
+        width: 90%;
+        min-width: 100%;
+        min-height: 63vh;
+        margin-bottom: 30px;
+        margin-left: 2rem;
+
+        img{
+            border-radius: 0.5rem;
+            max-width: 100%;
+        }
+    }
+   
+    &__detail{
+        margin-bottom: 10px;
+        margin-left: 3rem;
+
+        span{
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+
+    &__button{
+        display: block;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: 3rem;
+        background: #0071c5;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 24px;
+        text-decoration: none;
+
+        &:hover{
+            background: #005896;
+        }
+
+    }
+
+
+}
