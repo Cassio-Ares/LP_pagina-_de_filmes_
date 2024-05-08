@@ -1,7 +1,3 @@
-# Título do Projeto
-
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
-
 # Página de Filmes
 
 Este é um projeto de uma página web para visualizar informações sobre filmes, desenvolvido com Vite, React Router Dom e Axios, utilizando a API do The Movie Database (TMDb).
